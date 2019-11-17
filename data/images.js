@@ -91,7 +91,7 @@ const images = [
         horns: 2
     },
     {
-        url: 'https://cdn.modernfarmer.com/wp-content/uploads/2014/08/28476658_9c97f35096_o.jpg',
+        url: 'http://cdn.modernfarmer.com/wp-content/uploads/2014/08/28476658_9c97f35096_o.jpg',
         title: 'Mouflon',
         description: 'Those horns though',
         keyword: 'mouflon',
