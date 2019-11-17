@@ -1,3 +1,74 @@
 * {
     box-sizing: border-box;
 }
+
+.logopic {
+    vertical-align: middle;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+    height: 100vh;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: #D6E715;
+
+}
+
+
+main {
+    background-color: #FBF601;
+}
+
+.image-gallery {
+    width: 80vw;
+    margin: auto;
+}
+
+.gallery-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding-bottom: 20px;
+    
+}
+
+.card-image:hover {
+    visibility: visible;
+
+
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 2em;
+    max-width: fit-content;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+img {
+    display: block;
+    max-width: 200px;
+    padding: 6px;
+    border-radius: 2em;
+    
+}
+
+footer {
+    background-color: #D6E715;
+}
+
+li {
+    background-color: #FBC326;
+}
+ 
